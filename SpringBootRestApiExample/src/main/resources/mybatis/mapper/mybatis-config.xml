@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<configuration>
+	<setting>
+		<setting name="cacheEnabled" value="true"/>
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+		<setting name="defaultFetchSize" value="100"/>
+		<setting name="defaultStatementTimeout" value="30"/>
+	</setting>
+	
+	<typeAliases>
+		<package name="com.websystique.springboot.model"/>
+	</typeAliases>
+</configuration>
