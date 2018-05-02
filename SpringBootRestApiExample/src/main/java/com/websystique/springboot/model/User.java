@@ -21,7 +21,7 @@ public class User {
 	private int age;
 	@Column
 	private int salary;
-//121212113
+//12121
 	
 	public long getId() {
 		return id;
