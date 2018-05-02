@@ -22,8 +22,6 @@ public class User {
 	@Column
 	private int salary;
 
-	//gg
-	
 	
 	public long getId() {
 		return id;
