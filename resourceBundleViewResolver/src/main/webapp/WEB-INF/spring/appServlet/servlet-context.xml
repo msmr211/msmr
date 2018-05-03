@@ -21,6 +21,10 @@
 		<beans:property name="basename" value="resourcebundle" />
 	</beans:bean>
 	
+	<interceptors>
+		<beans:bean class="a.b.c.HelloInterceptor"></beans:bean>
+	</interceptors>
+	
 	<context:component-scan base-package="a.b.c" />
 	
 	
