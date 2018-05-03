@@ -10,6 +10,6 @@
 	<h1>Login Success Page</h1>
 	<p>You are logged in with email ${user.email}.</p>
 	
-	<a href="/user/info">View profile</a>
+	<a href="/tutorial/user/info">View profile</a>
 </body>
 </html>
